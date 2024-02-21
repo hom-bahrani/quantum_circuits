@@ -37,12 +37,14 @@ DumpMachine();
 ```
 - **`DumpMachine()`**: This function outputs the current quantum state of the simulator to the console. It's useful for debugging and learning purposes, as it shows the probabilities and phases of the quantum states.
 
+```bash
 DumpMachine:
 
  Basis | Amplitude      | Probability | Phase
  -----------------------------------------------
   |00⟩ |  0.7071+0.0000𝑖 |    50.0000% |   0.0000
   |11⟩ |  0.7071+0.0000𝑖 |    50.0000% |   0.0000
+```
 
 ```qsharp
 let (m1, m2) = (M(q1), M(q2));
